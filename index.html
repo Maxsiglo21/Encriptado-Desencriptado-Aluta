@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Web semántica con proyecto Encriptador, Desencriptador - 1er Challenge Oracle - Alura">
+    <meta name="Author" content="Carlos M Reynafé">
+    <link rel="stylesheet" type="text/css" href="style/reset.css">
+    <link rel="stylesheet" type="text/css" href="style/estilos.css">
+    <link rel="shortcut icon" href="icon/favicon-32x32.png" type="image/x-icon" />
+    <title>Encriptador - Desencriptador</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="input-container">
+            <header>
+                <div class="cabecera">
+                    <img src="img/Vector.png" alt="Alura Logo" />
+                    <h1>Encriptador de texto</h1>
+                </div>
+            </header>
+            <main>
+                <textarea placeholder="Ingresa el texto aquí" name="input"></textarea>
+                <p><img src="img/exclamation.png" /> Sólo letras minúsculas sin acento</p>
+                <div class="button-container">
+                    <button id="encrypt">Encriptar</button>
+                    <button id="decrypt">Desencriptar</button>
+                </div>
+            </main>
+        </div>
+        <div class="output-container">
+            <img src="img/Muñeco.png" alt="Searching for a text" />
+            <textarea class="hidden" placeholder="Ingresa el texto aquí" name="input"></textarea>
+            <h2>Ningún mensaje fue encontrado</h2>
+            <button id="copy" class="hidden">Copiar</button>
+            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <h2>Córdoba, República Argentina - Proyecto: Alura Latam - Decodificador -</h2>
+            <p class="pie">&copy; copyrigth Enero 2023 - Autor: Carlos M Reynafé - </p>
+
+
+        </div>
+    </footer>
+    <script defer src="js/script.js"></script>
+</body>
+
+</html>
